@@ -20,7 +20,8 @@ Premium SaaS admin dashboard demo built for portfolio and gig-cover use.
 
 ## Links
 
-- Live: https://nexus-admin-demo.pages.dev
+- Live: https://siteuret.com/nexus/
+- Pages preview: https://nexus-admin-demo.pages.dev
 - Production deployment: https://b474d328.nexus-admin-demo.pages.dev
 
 ## Local Run

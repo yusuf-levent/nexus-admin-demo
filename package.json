@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/prepare-nexus-path.mjs",
     "lint": "next lint",
-    "deploy:cloudflare": "wrangler pages deploy out --project-name nexus-admin-demo"
+    "deploy:cloudflare": "wrangler pages deploy out --project-name nexus-admin-demo",
+    "deploy:worker": "wrangler deploy --assets out --compatibility-date 2026-06-26"
   },
   "dependencies": {
     "clsx": "^2.1.1",

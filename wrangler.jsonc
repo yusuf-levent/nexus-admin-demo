@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "nexus-admin-live",
+  "compatibility_date": "2026-06-26",
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "siteuret.com/nexus*",
+      "zone_name": "siteuret.com"
+    }
+  ],
+  "assets": {
+    "directory": "./out"
+  }
+}
